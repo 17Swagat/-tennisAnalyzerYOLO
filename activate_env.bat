@@ -1,4 +1,2 @@
 @echo off
-conda activate E:\tennisAnalyzerYOLO\env\
-python --version
-pip --version
+conda activate E:\@tennisAnalyzerYOLO\tennisAnalyzer_env

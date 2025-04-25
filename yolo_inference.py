@@ -1,13 +1,18 @@
-# import ultralytics
 from ultralytics import YOLO
 # from ultralytics import SAM
 
-model = YOLO('yolov8x')
+model = YOLO("yolo11x.pt")
+
 
 # Inference
 # can give image/video:=>
-result  = model.predict(source='input_videos/input_video.mp4', 
-                        save=True,)
-                        # stream=True)
+result = model(
+    source="inference_inputs/vid_01.mp4",
+    save=True,
+    stream=True,
+)
 
-print(result)
+# print(result)
+
+for r in result:
+    pass

@@ -1,0 +1,9 @@
+__pycache__/
+.env 
+inference_inputs/
+runs/
+tennisAnalyzer_env/
+training/tennis-ball-detection-6/
+
+*.pt
+*.ini
