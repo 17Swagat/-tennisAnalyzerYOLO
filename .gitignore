@@ -7,3 +7,5 @@ training/tennis-ball-detection-6/
 
 *.pt
 *.ini
+
+TRAINED_MODELS_COLAB/

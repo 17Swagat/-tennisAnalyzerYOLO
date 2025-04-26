@@ -2,7 +2,7 @@
 tennis ball detection - v6 2023-01-30 1:12am
 ==============================
 
-This dataset was exported via roboflow.com on July 15, 2023 at 4:20 AM GMT
+This dataset was exported via roboflow.com on October 1, 2024 at 7:13 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -18,7 +18,7 @@ visit https://github.com/roboflow/notebooks
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
 The dataset includes 578 images.
-Tennis-ball are annotated in YOLO v5 PyTorch format.
+Tennis-ball are annotated in YOLOv11 format.
 
 The following pre-processing was applied to each image:
 
