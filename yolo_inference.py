@@ -10,7 +10,7 @@ model = YOLO(model='yolo11x.pt' )#MODEL_PATH)#"yolo11x.pt")
 
 # Inference
 # can give image/video:=>
-result = model.predict(
+result = model.track(#predict(
     source="inference_inputs/vid_01.mp4",
     conf=0.1, # Confidence threshold for predictions
     save=True,
